@@ -30,6 +30,16 @@ BSc. (CAP: 4.83/5.00) | Major: Mathematical, Computational, and Statistical Scie
 Central Board of Secondary Education | ACT: 35/36 | Graduated with a 100% in Computer Science and an overall average of 96.25%.
 
 * Experience
+*** IT Support Assistant
+:PROPERTIES:
+:FROM: <2020-08-01>
+:TO: <2022-12-01>
+:END:
+-	Troubleshooted more than 1200 support tickets from close to 500 different users.
+- Provided face-to-face support and technology advice to a diverse user base, helping non-tech-savvy individuals understand and utilize complex technical products effectively.
+- Cultivated a friendly and welcoming environment, often being the first point of contact for users seeking guidance and support.
+- Managed and maintained 100+ Mac devices, including software installations, troubleshooting, and simple hardware repairs.
+
 ** Singapore Institute of Technology
 :PROPERTIES:
 :LOCATION: Singapore
@@ -85,12 +95,6 @@ Central Board of Secondary Education | ACT: 35/36 | Graduated with a 100% in Com
 :END:
 -	Upgraded key MATLAB infrastructure without prior experience, reduced runtime from one week on server to 20 minutes on laptop.
 -	Initiated C++ project on planarization of bipartite graphs (listed as project “autograph” below).
-*** IT Support Assistant
-:PROPERTIES:
-:FROM: <2020-08-01>
-:TO: <2022-12-01>
-:END:
--	Troubleshooted more than 1200 support tickets from close to 500 different users.
 *** Peer Tutor: Introduction to Computer Science
 :PROPERTIES:
 :FROM: <2022-08-01>
