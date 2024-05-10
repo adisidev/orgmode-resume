@@ -1,78 +1,119 @@
 #+title: Author's Resume
 #+options: author:t email:t creator:t toc:nil num:nil title:nil
 #+date: \today
-#+author: FName LName
-#+email: fname.lname@gmail.com
-#+mobile: +91 98765 43210
-#+linkedin: name
-#+creator: Emacs 28.1 (Org mode 9.6)
-#+anon: t
+#+author: Aditya Singhania
+#+email: aditya.singhania@u.yale-nus.edu.sg
+#+mobile: (+65) 8840-3384
+#+linkedin: adisinghania
+#+github: adisidev
+# #+creator: Me
+# #+anon: t
 
-Some summary about myself. Lorem ipsum dolor sit amet. Ea nemo sequi quia quibusdam sed iure reprehenderit eos soluta nulla.
+* Education
+** Yale-NUS College, Singapore
+:PROPERTIES:
+:LOCATION: Aug 2020 - May 2024
+:END:
+BSc. (CAP: 4.83/5.00) | Major: Mathematical, Computational, and Statistical Sciences | S$82,000 Yale-NUS Merit Scholarship
+
+*** Yale University (Y-VISP), New Haven, Connecticut
+:PROPERTIES:
+:FROM: <2023-01-01>
+:TO: <2023-05-01>
+:END:
+
+** Modern School Vasant Vihar, New Delhi, India
+:PROPERTIES:
+:LOCATION: Aug 2004 - Mar 2019
+:END:
+
+Central Board of Secondary Education | ACT: 35/36 | Graduated with a 100% in Computer Science and an overall average of 96.25%.
 
 * Experience
-** Awesome Company 2
+** Singapore Institute of Technology
 :PROPERTIES:
-:LOCATION: Bangalore, Remote
+:LOCATION: Singapore
 :END:
-*** Senior Software Engineer
+*** Research Assistant to Associate Professor Michael Gastner
 :PROPERTIES:
-:FROM: <2022-06-14 Tue>
-:TO: <2022-07-20 Wed>
+:FROM: <2023-07-01>
 :END:
-- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
-- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
-- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
-- Id minus nihil et ipsa galisum et dignissimos eaque ea rerum iure est consectetur enim est repellendus suscipit! Vel beatae perspiciatis qui omnis saepe est libero laudantium qui esse sequi eligendi voluptate ut iste internos.
-*** Software Engineer
+- Implemented code to generate dynamic visuals enhancing academic presentations, debugging efficiency and external contributions.
+- Produced key research materials, including scholarly writing, explainer-videos for human-subject experiments and vital production code.
+- Assisted in preparing, refining, and presenting code-based research findings at two international conferences.
+** Synthesis Creative Data House
 :PROPERTIES:
-:FROM: <2022-04-14 Thu>
-:TO: <2022-06-14 Tue>
+:LOCATION: Singapore
 :END:
-- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
-- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
-- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
-- Sed repudiandae nisi sit consequatur accusamus est atque minus quo illum dignissimos vel galisum assumenda ut excepturi dolor eos molestiae voluptate.
-** Awesome Company 1
+*** Software Engineering x Data Science Intern
 :PROPERTIES:
-:LOCATION: Bangalore, Remote
+:FROM: <2023-05-01>
+:TO: <2023-08-01>
 :END:
-*** Software Engineer
+- Sped up web post scrapers for various social media platforms by up to 20x by intercepting network calls, and making them async.
+- Automated data workflows using Google Cloud Platform and migrated local workflows to Cloud Scheduler, Cloud Functions, and Cloud Run.
+- Collaborated with Consultants, Strategists and Data Scientists to optimize data workflows for client-facing dashboards.
+** Paytm
 :PROPERTIES:
-:FROM: <2022-04-14 Thu>
-:TO: <2022-06-14 Tue>
+:LOCATION: New Delhi, India
 :END:
-- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
-- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
-- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
-- Sed repudiandae nisi sit consequatur accusamus est atque minus quo illum dignissimos vel galisum assumenda ut excepturi dolor eos molestiae voluptate.
-* Technical Skills
-- *Languages*:  Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
-- *Frameworks*: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
-- *Developer Tools*: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
-- *Libraries*: pandas, NumPy, Matplotlib
+*** DevOps Intern
+:PROPERTIES:
+:FROM: <2022-06-01>
+:TO: <2022-08-01>
+:END:
+- Created ansible roles, bash scripts and cron jobs to automate tasks on production server.
+- Imported existing AWS infrastructure to terraform by using terraformer to "reverse-terraform,” allowing faster deployment.
+- Automated deployment process with Jenkins pipelines written in Groovy, and created tests to pass before pushing to prod.
+** Yale-NUS College
+:PROPERTIES:
+:LOCATION: Singapore
+:END:
+*** C++ Developer, Research Assistant to Asisstant Professor Michael Gastner
+:PROPERTIES:
+:FROM: <2020-09-01>
+:TO: <2022-12-01>
+:END:
+-	Refactored a C codebase for generating cartograms into C++, improving run time and fixing errors.
+-	Automated testing using shell scripts triggered with watchexec upon build, and GitHub actions.
+-	Simplified build system by moving from a plain Makefile to using CMake, allowing easy cross-platform builds.
+-	Migrated codebase to object-based model, making future development much easier.
+-	Sped up project by creating and managing agile workflow; code reviewed pull requests from various developers.
+*** Optimization Engineer, Research Assistant to Professor Emanuel Mayer
+:PROPERTIES:
+:FROM: <2022-02-01>
+:END:
+-	Upgraded key MATLAB infrastructure without prior experience, reduced runtime from one week on server to 20 minutes on laptop.
+-	Initiated C++ project on planarization of bipartite graphs (listed as project “autograph” below).
+*** IT Support Assistant
+:PROPERTIES:
+:FROM: <2020-08-01>
+:TO: <2022-12-01>
+:END:
+-	Troubleshooted more than 1200 support tickets from close to 500 different users.
+*** Peer Tutor: Introduction to Computer Science
+:PROPERTIES:
+:FROM: <2022-08-01>
+:TO: <2022-12-01>
+:END:
+- Facilitated 8+ hrs/week of tutoring to provide academic support and mentorship for Introduction to Computer Science course held in OCaml.
+* Additional Information
+- *Technical Skills*: C/C++ (CMake, Boost, CGAL), Python, OCaml, MATLAB, R (tidyverse), SQL, Shell Scripting, Data Visualisation, Git, Docker, Emacs/Vim (Spacemacs), Terraform, Google Cloud Platform, Amazon Web Services, types upto 160 WPM
+# - *Languages*: English, Hindi, Nepali
+# Lymphoma/leukaemia cancer survivor passionate about helping people, I’ve connected with over 20 cancer patients one-to-one to provide emotional support.
+* Publications and Conferences
+- 19th International Conference on Geoinformation and Cartography (Zagreb, Croatia | Sep 2023)
+- 10th International Congress on Industrial and Applied Mathematics (Tokyo, Japan | Aug 2023)
+- Gastner, M.T., Miaji, N.Z. & *Singhania, A.* (2022). Smooth Pycnophylactic Interpolation Produced by Density-Equalising Map Projections. Kartografija i geoinformacije, 21 (37), 60-68. https://doi.org/10.32909/kg.21.37.3
 * Projects
-- *Gitlytics* -- /Python, Flask, React, PostgreSQL, Docker/
-  - Developed a full-stack web application using with Flask serving a REST API with React as the frontend
-  - Implemented GitHub OAuth to get data from user’s repositories
-  - Visualized GitHub data to show collaboration
-  - Used Celery and Redis for asynchronous tasks
-* Education
-** Masters University Name
-:PROPERTIES:
-:LOCATION: Earth, Milky Way
-:END:
-*** MS Computer Science
-:PROPERTIES:
-:FROM:     <2022-04-14 Thu>
-:TO:       <2022-06-14 Tue>
-:END:
-** Bachelors University Name
-:PROPERTIES:
-:LOCATION: Earth, Solar System
-:END:
-*** BS Computer Science
-:PROPERTIES:
-:FROM:     <2022-04-14 Thu>
-:TO:       <2022-06-14 Tue>
-:END:
+- *tyler*
+  Engineered a new approach to generate mosaic cartograms, drawing from core cartogram coding knowledge ([[https://adisidev.github.io/tyler/][output]]).
+
+- *autograph*
+  Creating a novel way to nearly-planarize and reconfigure bipartite graph to facilitates pattern-finding, under development [[https://github.com/adisidev/autograph][here]].
+
+- *EvoSim*
+ 	Developed a C++ program to simulate evolution of foraging organisms. Won 1st of 250 Yale-NUS participants. Available [[https://github.com/adisidev/EvoSim][here]].
+
+- *ModExchange*
+  Developed a comprehensive C++ stock-market simulator during high school, with CLI and GUI interfaces ([[https://adisidev.github.io/ModExchange.png][screenshot]]).
