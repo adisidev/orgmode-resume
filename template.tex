@@ -14,9 +14,10 @@
 \input{glyphtounicode}
 
 \usepackage{xcolor}
-\definecolor{ink}{rgb}{0.15, 0.20, 0.70} % ink color
+\definecolor{ink}{rgb}{0, 0, 0} % ink color
+\definecolor{linkcol}{RGB}{5, 99, 193} % ink color
 \colorlet{TextColor}{ink}
-\colorlet{LinkColor}{ink}
+\colorlet{LinkColor}{linkcol}
 \hypersetup{
   colorlinks=true,
   urlcolor=LinkColor
@@ -33,23 +34,25 @@
 % \usepackage{tgheros}
 %\usepackage{mlmodern}
 %  \renewcommand*\familydefault{\sfdefault}
-\usepackage[default]{sourcesanspro}
+% \usepackage[default]{sourcesanspro}
 
 
 
 % serif
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
-%\usepackage{mlmodern}
-%\usepackage{fontspec}
-%\setmainfont{Proxima Nova Alt}
+% \usepackage{mlmodern}
+% \usepackage{fontspec}
+% \setmainfont{Graphik}
+% \setmainfont{Proxima Nova Alt}
+
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\topmargin}{-0.80in}
+\addtolength{\textwidth}{1.6in}
+\addtolength{\textheight}{1.5in}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields

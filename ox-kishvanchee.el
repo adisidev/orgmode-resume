@@ -54,6 +54,7 @@ in case TO-DATE is nil return Present"
   :options-alist
   '((:mobile "MOBILE" nil nil parse)
     (:linkedin "LINKEDIN" nil nil parse)
+    ;; (:github "GITHUB" nil nil parse)
     (:anon "ANON" nil nil parse))
   :translate-alist '((template . org-kishvanchee-template)
                      (headline . org-kishvanchee-headline)))
@@ -67,8 +68,8 @@ holding export options."
    "\\input{template.tex}\n\n"
 
    ;; Creator
-   (and (plist-get info :with-creator)
-        (concat "\\creator{" (plist-get info :creator) "}" "\n\n"))
+   ;; (and (plist-get info :with-creator)
+   ;;      (concat "\\creator{" (plist-get info :creator) "}" "\n\n"))
 
 
    ;; Document start.
@@ -81,7 +82,7 @@ holding export options."
                      (and (plist-get info :with-author)
                         (let ((auth (plist-get info :author)))
                           (and auth (org-export-data auth info)))))))
-     (format "{\\Huge \\scshape \\color{TextColor} %s } \\\\ \\vspace{1pt}\n" name))
+     (format "{\\Large \\scshape \\color{TextColor} \\textbf{%s} } \\\\ \\vspace{1pt}\n" name))
    ;; mobile
    (let ((mobile (if (org-string-nw-p anon)
                      "+00 98765 43210"
@@ -99,8 +100,15 @@ holding export options."
                      "anon"
                    (org-export-data (plist-get info :linkedin) info))))
      (when (org-string-nw-p linkedin)
-       (format "$|$ \\href{https://linkedin.com/in/%s/}{linkedin.com/in/%s/}" linkedin linkedin)))
+       (format "$|$ \\href{https://linkedin.com/in/%s/}{LinkedIn}" linkedin linkedin)))
    (format "\n\\end{center}\n\n")
+   ;; github
+   ;; (let ((github (if (org-string-nw-p anon)
+   ;;                     "anon"
+   ;;                   (org-export-data (plist-get info :github) info))))
+   ;;   (when (org-string-nw-p github)
+   ;;     (format "$|$ \\href{https://github.com/%s/}{github.com/%s/}" github github)))
+   ;; (format "\n\\end{center}\n\n")
 
    contents
 
