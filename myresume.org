@@ -1,4 +1,4 @@
-#+title: Author's Resume
+# #+title: Author's Resume
 #+options: author:t email:t creator:t toc:nil num:nil title:nil
 #+date: \today
 #+author: Aditya Singhania
@@ -109,15 +109,3 @@ Central Board of Secondary Education | ACT: 35/36 | Graduated with a 100% in Com
 - 19th International Conference on Geoinformation and Cartography (Zagreb, Croatia | Sep 2023)
 - 10th International Congress on Industrial and Applied Mathematics (Tokyo, Japan | Aug 2023)
 - Gastner, M.T., Miaji, N.Z. & *Singhania, A.* (2022). Smooth Pycnophylactic Interpolation Produced by Density-Equalising Map Projections. Kartografija i geoinformacije, 21 (37), 60-68. https://doi.org/10.32909/kg.21.37.3
-* Projects
-- *tyler*
-  Engineered a new approach to generate mosaic cartograms, drawing from core cartogram coding knowledge ([[https://adisidev.github.io/tyler/][output]]).
-
-- *autograph*
-  Creating a novel way to nearly-planarize and reconfigure bipartite graph to facilitates pattern-finding, under development [[https://github.com/adisidev/autograph][here]].
-
-- *EvoSim*
- 	Developed a C++ program to simulate evolution of foraging organisms. Won 1st of 250 Yale-NUS participants. Available [[https://github.com/adisidev/EvoSim][here]].
-
-- *ModExchange*
-  Developed a comprehensive C++ stock-market simulator during high school, with CLI and GUI interfaces ([[https://adisidev.github.io/ModExchange.png][screenshot]]).
